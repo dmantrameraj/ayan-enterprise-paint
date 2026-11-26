@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b1b3a" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>Ayan Enterprises | Asian Paints, Nerolac, Tools, Tile Cleaners &amp; Wall Prep – Indira Nagar, Lucknow</title>
+  <meta name="description" content="Showcase for Ayan Enterprises at Mela Nagar Market, Behind Loknath Guest House, Indira Nagar, Lucknow. Authorized Asian Paints &amp; Nerolac dealer, painting brushes, chuna, mitti, putty, and tile &amp; toilet cleaning chemicals." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span class="topbar-pill">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2 15.09 8.26 22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          Authorized Partner: Asian Paints &amp; Kansai Nerolac
+        </span>
+        <span class="topbar-sep"></span>
+        <span class="topbar-link">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Mela Nagar Market, Behind Loknath Guest House, Indira Nagar, Lucknow
+        </span>
+      </div>
+      <div class="topbar-right">
+        <span class="topbar-link">Open Daily: 8:00 AM – 9:00 PM</span>
+        <div class="audience-switch" role="group" aria-label="Customer type">
+          <button type="button" class="audience-btn active" data-audience="homeowner">Homeowner</button>
+          <button type="button" class="audience-btn" data-audience="contractor">Contractor &amp; Bulk</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Navigation Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#top" class="brand-lockup" aria-label="Ayan Enterprises Home">
+        <div class="brand-mark" aria-hidden="true">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+            <path d="M12 2.5C12 2.5 5.5 9.8 5.5 14.5A6.5 6.5 0 0 0 18.5 14.5C18.5 9.8 12 2.5 12 2.5Z" fill="#FBBF24"/>
+            <path d="M9.5 15.2A3 3 0 0 0 13.5 18" stroke="#0B1B3A" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <strong>Ayan Enterprises</strong>
+          <span>Paints · Tools · Cleaners · Prep</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#flashcards">What We Sell</a>
+        <a href="#steps">Painting Steps</a>
+        <a href="#catalog">Products</a>
+        <a href="#estimator">Shade &amp; Estimator</a>
+        <a href="#bulk">Contractors</a>
+        <a href="#visit">Visit Store</a>
+        <div class="mobile-nav-cta">
+          <a href="tel:+919935493242" class="btn btn-navy" style="width:100%;">Call +91 99354 93242</a>
+          <a href="#bulk" class="btn btn-primary" style="width:100%;">Get Instant Quote</a>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+919935493242" class="phone-badge" title="Call Ayan Enterprises">
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +91 99354 93242
+        </a>
+        <button type="button" class="quote-drawer-btn" id="openQuoteDrawer" aria-label="Open Estimate List">
+          <span>Estimate</span>
+          <span class="quote-count" id="quoteCount">0</span>
+        </button>
+        <a href="#bulk" class="btn btn-primary header-quote-btn" style="padding: 10px 18px;">Get Quote</a>
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            Indira Nagar's One-Stop Paint, Hardware &amp; Chemical Showroom
+          </div>
+          <h1>
+            From <span class="highlight">Chuna, Putty &amp; Brushes</span> to Genuine <span class="highlight">Asian Paints, Nerolac</span> &amp; Tile Cleaners.
+          </h1>
+          <p class="hero-lead" id="heroLead">
+            Authorized Asian Paints &amp; Nerolac dealer in Indira Nagar, Lucknow — offering live computerized shade tinting, painting brushes &amp; rollers, chuna/mitti wall prep, and tile &amp; toilet cleaning chemicals under one roof.
+          </p>
+
+          <div class="hero-contact-strip">
+            <a href="tel:+919935493242" class="hero-number-card">
+              <div class="hero-number-icon">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div>
+                <small>Direct Store Desk</small>
+                <strong>+91 99354 93242</strong>
+              </div>
+            </a>
+            <a href="#visit" class="hero-number-card">
+              <div class="hero-number-icon" style="background: linear-gradient(135deg, #d97706, #b45309);">
+                <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <small>Mela Nagar Market</small>
+                <strong>Behind Loknath Guest House</strong>
+              </div>
+            </a>
+          </div>
+
+          <div class="hero-ctas">
+            <a href="https://wa.me/919935493242?text=Hi%20Ayan%20Enterprises%2C%20I%20would%20like%20to%20enquire%20about%20paints%2C%20tools%2C%20or%20cleaning%20chemicals." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.47 0 .1 5.37.1 11.96c0 2.11.55 4.17 1.6 5.98L0 24l6.22-1.63a11.92 11.92 0 0 0 5.83 1.49h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.5-8.42ZM12.06 21.84h-.01a9.89 9.89 0 0 1-5.04-1.38l-.36-.21-3.69.97.99-3.6-.24-.37a9.89 9.89 0 0 1-1.52-5.29c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.13 1.03 7 2.9a9.84 9.84 0 0 1 2.9 7c0 5.46-4.44 9.88-9.93 9.88Zm5.43-7.41c-.3-.15-1.76-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35Z"/></svg>
+              Order / Enquire on WhatsApp
+            </a>
+            <a href="#catalog" class="btn btn-primary">Explore All Products</a>
+            <a href="#estimator" class="btn btn-outline">Paint Calculator</a>
+          </div>
+
+          <div class="hero-trust-row">
+            <span class="hero-trust-item">
+              <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              100% Factory-Sealed Brand Stock
+            </span>
+            <span class="hero-trust-item">
+              <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              Retail &amp; Contractor Bulk Rates
+            </span>
+            <span class="hero-trust-item">
+              <svg width="17" height="17" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+              UPI, Cash &amp; GST Billing
+            </span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-card" id="hero3dCard" style="--wipe: 62%;">
+            <div class="hero-reel-stage">
+              <img class="reel-img reel-before" src="assets/images/hero-before.jpg" alt="Before painting: bare cement plaster and white wall putty skim-coat" />
+              <div class="reel-after-clip">
+                <img class="reel-img reel-after" src="assets/images/hero-showcase.jpg" alt="After painting: rich Royal Sapphire and Warm Alabaster luxury finish" />
+              </div>
+              <div class="reel-divider" aria-hidden="true">
+                <div class="reel-handle">
+                  <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" viewBox="0 0 24 24"><path d="m9 18-6-6 6-6"/><path d="m15 6 6 6-6 6"/></svg>
+                </div>
+              </div>
+              <span class="reel-tag reel-tag-after">AFTER · Painted</span>
+              <span class="reel-tag reel-tag-before">BEFORE · Putty &amp; Plaster</span>
+            </div>
+
+            <div class="hero-sheen" id="heroSheen"></div>
+
+            <div class="hero-float-top">
+              <div class="tint-wheel"></div>
+              <div>
+                <small>3D Before → After Wall Fill</small>
+                <strong>2,200+ Tinted Shades</strong>
+              </div>
+            </div>
+
+            <button type="button" class="reel-toggle-btn" id="reelToggleBtn" aria-label="Pause or play 3D wall transformation reel">
+              <span class="reel-rec-dot"></span>
+              <span id="reelToggleLabel">Pause Reel</span>
+            </button>
+
+            <div class="hero-float-bottom">
+              <div class="reel-progress-track" aria-hidden="true">
+                <div class="reel-progress-fill" id="reelProgressFill"></div>
+              </div>
+              <div class="brand-partners-mini">
+                <span class="partner-chip chip-asian">Asian Paints</span>
+                <span class="partner-chip chip-nerolac">Kansai Nerolac</span>
+              </div>
+              <div class="hero-float-meta">
+                <small>Drag across image to compare</small>
+                <strong>Same-Day Lucknow Dispatch</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instant Clarity Landing Flashcards -->
+    <section class="flashcards-section" id="flashcards">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Quick Department Guide</span>
+            <h2 class="section-title">Everything Your Site Needs — In 4 Flashcards</h2>
+          </div>
+          <p class="section-sub">Click any card to jump straight to genuine paints, wall-prep materials, application tools, or tile &amp; bathroom cleaning chemicals.</p>
+        </div>
+        <div class="flashcards-grid" id="flashcardsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Authorized Brand Tie-Ups & In-Store Counter Authenticity -->
+    <section class="brands-band">
+      <div class="container brands-layout">
+        <div>
+          <span class="section-kicker">Authorized Supply Partners</span>
+          <h2 class="section-title">Trusted Brands, Fresh Batch Stock</h2>
+          <p class="section-sub" style="margin-top: 8px;">Whether you are painting a single room in Indira Nagar or managing a full residential site, <strong>Ayan Enterprises</strong> supplies genuine sealed drums, fresh putty/chuna bags, and certified hardware.</p>
+          <div class="partner-cards">
+            <div class="partner-box">
+              <div class="partner-logo-dot" style="background: linear-gradient(135deg, #dc2626, #991b1b);">AP</div>
+              <div>
+                <h4>Asian Paints</h4>
+                <span>Royale, Apex Ultima, Tractor &amp; Apcolite</span>
+              </div>
+            </div>
+            <div class="partner-box">
+              <div class="partner-logo-dot" style="background: linear-gradient(135deg, #1d4ed8, #0f172a);">KN</div>
+              <div>
+                <h4>Kansai Nerolac</h4>
+                <span>Beauty Sheen, Excel, Impressions &amp; Enamel</span>
+              </div>
+            </div>
+            <div class="partner-box">
+              <div class="partner-logo-dot" style="background: linear-gradient(135deg, #d97706, #92400e);">WP</div>
+              <div>
+                <h4>Chuna, Mitti &amp; Putty</h4>
+                <span>Wall Levelling, Slaked Lime &amp; Waterproofing</span>
+              </div>
+            </div>
+            <div class="partner-box">
+              <div class="partner-logo-dot" style="background: linear-gradient(135deg, #0e7490, #065f46);">TC</div>
+              <div>
+                <h4>Tools &amp; Tile Cleaners</h4>
+                <span>Brushes, Rollers, Acidic &amp; Marble-Safe Care</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="counter-photo-card">
+          <img src="assets/images/products/store-shelves.jpg" alt="Genuine Asian Paints, Nerolac, Dr. Fixit waterproofing and 3M tapes stocked on shelves" loading="lazy" />
+          <div class="counter-caption">
+            <div>In-Stock Shelves: Asian Paints, Nerolac, Tapes &amp; Waterproofing</div>
+            <span>READY STOCK</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Complete 4-Step Wall-to-Tile Painting System -->
+    <section class="steps-section" id="steps">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Complete Wall-to-Tile Workflow</span>
+            <h2 class="section-title">Every Step From Bare Plaster to Sparkling Tiles</h2>
+          </div>
+          <p class="section-sub">We guide homeowners and masons through every stage so nothing peels, stains, or gets missed.</p>
+        </div>
+        <div class="steps-grid" id="stepsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Filterable Product Catalog -->
+    <section class="catalog-section" id="catalog">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Demo Product Showcase</span>
+            <h2 class="section-title">Browse Paints, Chuna, Brushes &amp; Cleaners</h2>
+          </div>
+          <p class="section-sub">Rates shown below are demo placeholders for preview. Add items to your Estimate List to send a 1-click WhatsApp enquiry.</p>
+        </div>
+
+        <div class="catalog-controls">
+          <div class="filter-tabs" role="tablist" aria-label="Product categories">
+            <button type="button" class="filter-tab active" data-cat="all">All Products</button>
+            <button type="button" class="filter-tab" data-cat="paints">Asian Paints &amp; Nerolac</button>
+            <button type="button" class="filter-tab" data-cat="prep">Chuna, Mitti &amp; Prep</button>
+            <button type="button" class="filter-tab" data-cat="tools">Brushes &amp; Tools</button>
+            <button type="button" class="filter-tab" data-cat="cleaners">Tile &amp; Toilet Cleaners</button>
+          </div>
+
+          <div class="catalog-search-wrap">
+            <select id="brandFilter" aria-label="Filter by brand" style="padding:10px 14px; border-radius:999px; border:1px solid var(--border-strong); background:#fff; font-weight:700; font-size:0.86rem; color:var(--navy-deep);">
+              <option value="all">All Brands</option>
+              <option value="Asian Paints">Asian Paints</option>
+              <option value="Kansai Nerolac">Kansai Nerolac</option>
+              <option value="Ayan Wall Prep">Ayan Wall Prep</option>
+              <option value="Ayan Pro Tools">Ayan Pro Tools</option>
+              <option value="Ayan Surface Care">Ayan Surface Care</option>
+            </select>
+            <div class="search-input-box">
+              <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+              <input type="search" id="productSearch" placeholder="Search paints, brushes, cleaner..." aria-label="Search products" />
+            </div>
+          </div>
+        </div>
+
+        <div class="products-grid" id="productsGrid"></div>
+      </div>
+    </section>
+
+    <!-- Interactive Shade Studio & Paint Estimator -->
+    <section class="studio-section" id="estimator">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Interactive Planning Tools</span>
+            <h2 class="section-title">Preview Shades &amp; Estimate Material Needs</h2>
+          </div>
+          <p class="section-sub">Pick a popular interior/exterior shade and calculate approximate paint, primer, and putty or chuna required for your space.</p>
+        </div>
+
+        <div class="studio-grid">
+          <!-- Shade Preview -->
+          <div class="studio-card">
+            <h3 style="color: var(--navy-deep); font-size: 1.25rem;">Trending Asian Paints &amp; Nerolac Swatches</h3>
+            <p style="font-size: 0.86rem; color: var(--ink-500);">Choose from 15 popular shades by colour family or pick any custom hue to preview before tinting.</p>
+            <div class="shade-family-tabs" id="shadeFamilyTabs" role="tablist" aria-label="Shade colour families">
+              <button type="button" class="shade-family-btn active" data-family="all">All (15)</button>
+              <button type="button" class="shade-family-btn" data-family="neutrals">Neutrals</button>
+              <button type="button" class="shade-family-btn" data-family="blues">Blues</button>
+              <button type="button" class="shade-family-btn" data-family="warm">Warm</button>
+              <button type="button" class="shade-family-btn" data-family="greens">Greens</button>
+              <button type="button" class="shade-family-btn" data-family="luxury">Luxury</button>
+            </div>
+            <div class="wall-preview-box" id="wallPreviewBox"></div>
+            <div class="swatch-grid" id="swatchGrid"></div>
+            <div class="custom-shade-bar">
+              <label for="customShadePicker" class="custom-shade-label">
+                <input type="color" id="customShadePicker" value="#17346E" aria-label="Pick custom wall shade" />
+                <span>Custom Shade Picker (<strong id="customHexLabel">#17346E</strong>)</span>
+              </label>
+              <a id="shadeWaLink" href="#" target="_blank" rel="noopener" class="btn btn-navy" style="padding: 8px 14px; font-size: 0.8rem;">Enquire Shade</a>
+            </div>
+          </div>
+
+          <!-- Paint & Material Calculator -->
+          <div class="studio-card">
+            <h3 style="color: var(--navy-deep); font-size: 1.25rem;">Quick Paint, Primer &amp; Chuna Estimator</h3>
+            <p style="font-size: 0.86rem; color: var(--ink-500);">Pick a room size or enter your wall area in sq. ft. to see how much paint, primer, and chuna/putty you need.</p>
+
+            <div class="est-form-grid">
+              <div class="field">
+                <label for="estPreset">Room / Space Size</label>
+                <select id="estPreset">
+                  <option value="custom">Custom Sq. Ft.</option>
+                  <option value="420">1 Room (10×12 ft · 420 sq.ft)</option>
+                  <option value="800" selected>2 Rooms / Hall (800 sq.ft)</option>
+                  <option value="1600">2 BHK Home (1,600 sq.ft)</option>
+                  <option value="2400">3 BHK Home (2,400 sq.ft)</option>
+                  <option value="1200">Exterior Front (1,200 sq.ft)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="estArea">Wall Area (Sq. Ft.)</label>
+                <input type="number" id="estArea" value="800" min="100" max="50000" step="50" />
+              </div>
+              <div class="field">
+                <label for="estPaintType">Paint Type (Coverage)</label>
+                <select id="estPaintType">
+                  <option value="120" selected>Interior Emulsion (~120 sq.ft/L)</option>
+                  <option value="100">Exterior Weatherproof (~100 sq.ft/L)</option>
+                  <option value="90">Acrylic Distemper (~90 sq.ft/L)</option>
+                  <option value="135">Luxury Washable (~135 sq.ft/L)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="estCoats">Finish Coats</label>
+                <select id="estCoats">
+                  <option value="2" selected>2 Coats (Standard)</option>
+                  <option value="3">3 Coats (Deep Shade)</option>
+                  <option value="1">1 Coat (Repaint Refresh)</option>
+                </select>
+              </div>
+              <div class="field" style="grid-column: 1 / -1;">
+                <label for="estPrep">Base Preparation Material</label>
+                <select id="estPrep">
+                  <option value="putty" selected>Acrylic / White-Cement Wall Putty</option>
+                  <option value="chuna">Slaked White Chuna &amp; Natural Mitti</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="est-result-box">
+              <div class="est-metric">
+                <strong id="resPaint">14 L</strong>
+                <span>Topcoat Paint</span>
+              </div>
+              <div class="est-metric">
+                <strong id="resPrimer">6 L</strong>
+                <span>Wall Primer</span>
+              </div>
+              <div class="est-metric">
+                <strong id="resPrep">58 kg</strong>
+                <span id="resPrepLabel">Wall Putty Needed</span>
+              </div>
+            </div>
+            <div class="est-pack-note" id="estPackNote"></div>
+
+            <a id="estWaBtn" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp" style="width: 100%;">
+              Send This Estimate on WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contractor & Bulk Supply Section -->
+    <section class="b2b-section" id="bulk">
+      <div class="container b2b-grid">
+        <div>
+          <span class="section-kicker">Contractors, Builders &amp; Societies</span>
+          <h2 class="section-title">Bulk Hardware, 20L Drums &amp; Chuna/Putty Wholesale Rates</h2>
+          <p class="b2b-lead">Working on a renovation or construction project in Indira Nagar, Gomti Nagar, or anywhere in Lucknow? Lock in wholesale dealer pricing with fast dispatch and GST invoicing.</p>
+
+          <div class="b2b-perks">
+            <div class="b2b-perk">
+              <strong>20L Paint Drums &amp; Primers</strong>
+              <span>Bulk Asian Paints &amp; Nerolac packs ready for multi-floor projects.</span>
+            </div>
+            <div class="b2b-perk">
+              <strong>25kg / 40kg Chuna &amp; Putty</strong>
+              <span>Wholesale sacks of pure slaked chuna, mitti &amp; wall putty.</span>
+            </div>
+            <div class="b2b-perk">
+              <strong>5L Tile &amp; Toilet Cans</strong>
+              <span>Economical 5-litre jerrycans for societies, hotels &amp; post-build cleanup.</span>
+            </div>
+            <div class="b2b-perk">
+              <strong>GST Invoice &amp; UPI</strong>
+              <span>Clean billing, priority counter loading &amp; same-day local transport.</span>
+            </div>
+          </div>
+
+          <a href="tel:+919935493242" class="btn btn-primary">Call Bulk Desk: +91 99354 93242</a>
+        </div>
+
+        <div class="b2b-card-form">
+          <h3>Request Instant Bulk / Home Quote</h3>
+          <p>Share your material list or project type — opens pre-filled on WhatsApp.</p>
+          <form id="b2bForm" style="display: grid; gap: 12px;">
+            <div class="field">
+              <label for="b2bName">Your Name / Firm Name</label>
+              <input type="text" id="b2bName" required placeholder="e.g. Rajesh Verma / Homeowner" />
+            </div>
+            <div class="field">
+              <label for="b2bPhone">Mobile Number</label>
+              <input type="tel" id="b2bPhone" required placeholder="e.g. 99354 93242" />
+            </div>
+            <div class="field">
+              <label for="b2bReq">Items Needed (Paints, Chuna, Brushes, Tile Cleaners)</label>
+              <textarea id="b2bReq" rows="3" required placeholder="e.g. 2x 20L Asian Paints Apex, 5 bags Putty, 4-inch brushes, 5L Tile Cleaner..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-navy" style="width: 100%;">Send Quote Request via WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <span class="section-kicker">Expert Buying Advice</span>
+            <h2 class="section-title">Common Questions About Paints, Chuna &amp; Cleaners</h2>
+          </div>
+        </div>
+        <div class="faq-list" id="faqList"></div>
+      </div>
+    </section>
+
+    <!-- Store Address, Map Card & Contact -->
+    <section class="visit-section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-card">
+          <div>
+            <span class="section-kicker">Visit Our Showroom</span>
+            <h2 class="section-title">Ayan Enterprises</h2>
+            <div class="info-list">
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <small>Store Address</small>
+                  <strong>Mela Nagar Market, Behind Loknath Guest House, Indira Nagar, Lucknow – 226016</strong>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <small>Phone &amp; WhatsApp</small>
+                  <strong><a href="tel:+919935493242">+91 99354 93242</a></strong>
+                </div>
+              </div>
+              <div class="info-row">
+                <div class="info-icon">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                </div>
+                <div>
+                  <small>Opening Hours</small>
+                  <strong>Monday – Sunday: 8:00 AM – 9:00 PM</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <a href="tel:+919935493242" class="btn btn-navy">Call Store Now</a>
+            <a href="https://wa.me/919935493242?text=Hi%20Ayan%20Enterprises%2C%20please%20share%20your%20Mela%20Nagar%20Market%20store%20location." target="_blank" rel="noopener" class="btn btn-whatsapp">Get Directions on WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="map-visual-card">
+          <div>
+            <span class="section-kicker">Easy Landmark Access</span>
+            <h3 style="font-size: 1.5rem; color: var(--navy-deep); margin-bottom: 10px;">Right Behind Loknath Guest House, Indira Nagar</h3>
+            <p style="font-size: 0.92rem; color: var(--ink-700); margin-bottom: 22px;">Easy loading access for autos, e-rickshaws, and tempo transport in Mela Nagar Market, serving Indira Nagar, Munshi Pulia, and surrounding Lucknow sectors.</p>
+          </div>
+          <div class="map-pin-banner">
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap;">
+              <div>
+                <span style="display:inline-block; font-size:0.72rem; font-weight:800; color:var(--crimson); text-transform:uppercase; margin-bottom:4px;">Verified Landmark Pin</span>
+                <strong style="display:block; color:var(--navy-deep); font-size:1rem;">Ayan Enterprises — Mela Nagar Market, Indira Nagar</strong>
+                <span style="font-size:0.84rem; color:var(--ink-500);">Behind Loknath Guest House · Lucknow, UP</span>
+              </div>
+              <a href="https://www.google.com/maps/search/?api=1&query=Loknath+Guest+House+Indira+Nagar+Lucknow" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 10px 18px;">Open Google Maps</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong style="font-family:'Outfit',sans-serif; font-size:1.5rem; color:#fff; display:block; margin-bottom:8px;">Ayan Enterprises</strong>
+          <p style="font-size: 0.88rem; max-width: 360px; margin-bottom: 12px;">Your complete neighborhood partner for Asian Paints, Kansai Nerolac, painting brushes &amp; rollers, chuna, mitti, putty, and tile &amp; toilet cleaning chemicals.</p>
+          <span style="display:inline-block; padding:5px 12px; border-radius:999px; background:rgba(251,191,36,0.15); color:#fde68a; font-size:0.76rem; font-weight:700;">Authorized Asian Paints &amp; Nerolac Dealer</span>
+        </div>
+        <div>
+          <h4>Departments</h4>
+          <ul>
+            <li><a href="#catalog">Asian Paints &amp; Nerolac</a></li>
+            <li><a href="#catalog">Chuna, Mitti &amp; Wall Putty</a></li>
+            <li><a href="#catalog">Brushes, Rollers &amp; Tools</a></li>
+            <li><a href="#catalog">Tile &amp; Toilet Cleaners</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Store Info</h4>
+          <ul>
+            <li>Mela Nagar Market, Behind Loknath Guest House</li>
+            <li>Indira Nagar, Lucknow – 226016</li>
+            <li>Phone: <a href="tel:+919935493242">+91 99354 93242</a></li>
+            <li>Open: Mon – Sun, 8:00 AM – 9:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Ayan Enterprises. Demo concept with placeholder catalog pricing.</span>
+        <span>Payments Accepted: UPI · Cash · GST Invoice</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a class="whatsapp-float" href="https://wa.me/919935493242?text=Hi%20Ayan%20Enterprises%2C%20I%20want%20to%20enquire%20about%20paints%2C%20brushes%2C%20chuna%2C%20or%20tile%20cleaners." target="_blank" rel="noopener" aria-label="Order or chat on WhatsApp">
+    <div class="wa-pulse">
+      <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.47 0 .1 5.37.1 11.96c0 2.11.55 4.17 1.6 5.98L0 24l6.22-1.63a11.92 11.92 0 0 0 5.83 1.49h.01c6.59 0 11.96-5.37 11.96-11.96 0-3.19-1.24-6.19-3.5-8.42ZM12.06 21.84h-.01a9.89 9.89 0 0 1-5.04-1.38l-.36-.21-3.69.97.99-3.6-.24-.37a9.89 9.89 0 0 1-1.52-5.29c0-5.46 4.44-9.9 9.9-9.9 2.64 0 5.13 1.03 7 2.9a9.84 9.84 0 0 1 2.9 7c0 5.46-4.44 9.88-9.93 9.88Zm5.43-7.41c-.3-.15-1.76-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.78-1.48-1.75-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.06 2.87 1.21 3.07.15.2 2.09 3.19 5.06 4.47.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35Z"/></svg>
+    </div>
+    <span>WhatsApp Order</span>
+  </a>
+
+  <!-- Slide-over Estimate List Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="quote-drawer" id="quoteDrawer" aria-label="Estimate List">
+    <div class="drawer-header">
+      <div>
+        <strong style="font-family:'Outfit',sans-serif; font-size:1.15rem; color:var(--navy-deep);">Your Estimate List</strong>
+        <span style="display:block; font-size:0.78rem; color:var(--ink-500);">Send directly to Ayan Enterprises on WhatsApp</span>
+      </div>
+      <button type="button" id="closeQuoteDrawer" aria-label="Close drawer" style="width:34px;height:34px;border-radius:10px;border:1px solid var(--border-soft);background:#fff;cursor:pointer;font-weight:800;">✕</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+    <div class="drawer-footer">
+      <div class="field" style="margin-bottom: 10px;">
+        <label for="drawerCustomer">Your Name / Locality (Optional)</label>
+        <input type="text" id="drawerCustomer" placeholder="e.g. Amit · Sector 14, Indira Nagar" />
+      </div>
+      <button type="button" id="sendDrawerWa" class="btn btn-whatsapp" style="width: 100%;">Send List on WhatsApp</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
